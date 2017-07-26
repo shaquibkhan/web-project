@@ -1,0 +1,123 @@
+body{
+	
+	background-color: #8da6bf;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.24);
+	padding: 50px;
+
+}
+.bordered{
+	border:1px solid #ccc;
+	border-radius: 2px;
+}
+
+footer{
+	text-align: center;
+	background-color: #455a64;
+	color: #ef6c00;
+	padding: 10px;
+	margin: 0 auto;
+	width: 900px;
+	border-radius: 5px;
+	line-height: 20px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.24);
+}
+/*.footer__fab {
+    background-color: #fff;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iM…FsMS4yMzItMS4yMzNMNi43NzYgMCAwIDYuNzc2IDEuMjMyIDguMDF6Ii8+PC9nPjwvc3ZnPg==);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    border-radius: 100%;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24), 0 0 6px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    height: 56px;
+    position: absolute;
+    transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
+    right: 0;
+    width: 56px;
+    z-index: 1; */
+
+
+.bs-example{
+	float: right;
+		}
+
+.boxed{
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.14);
+
+}
+#main{
+	min-height: 300px;
+	border-radius:5px; 
+	margin: 10px 0px;
+	padding: 10px;
+	background-color: #fff;
+}
+#results{
+	padding: 5px;
+	width: 300px;
+	display: inline-block; 
+	vertical-align: top;
+
+	
+}
+.result{
+	margin: 5px;
+	font-family: 'Roboto', 'Noto', sans-serif;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.14);
+}
+.result .title{
+	font-weight: bold;
+}
+
+#errorMsg{
+	color:#f00;
+}
+.login-form{
+	display: inline-block;
+	width: 400px;
+	padding: 2px;
+	vertical-align: top;
+	
+}
+.login-form label{
+	font-family: 'Roboto', 'Noto', sans-serif;
+	width: 120px;
+	display: inline-block;
+	
+}
+.login-form input[type=text],
+.login-form input[type=password] {
+	width: 200px;
+}
+.login-form input[type=submit],
+.login-form input[type=reset],
+button {
+	background-color: lightgreen;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.login-form input[type=reset] {
+	background-color: red;
+}
+
+footer{
+	font-weight: bold;
+	
+
+}
+#logOutSection{
+	display: none;
+}
+#errorMsg{
+	font-weight: bold;
+}
+
+
+ 

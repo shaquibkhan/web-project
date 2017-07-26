@@ -1,0 +1,28 @@
+body{
+	background-color: #39CCCC;
+	
+}
+#main{
+	padding-top: 100px;
+}
+#container{
+	padding-top: 140px;
+	margin: 0 auto;
+	width: 600px;
+	min-height: 400px;
+	background-color: #7FDBFF;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.14);
+}
+
+#contact{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+ .bs-example{
+	
+	float: right;
+	}
+	
